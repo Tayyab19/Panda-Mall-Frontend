@@ -1,0 +1,104 @@
+.page-content {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, white, grey);
+}
+
+.auth-card {
+  background-color: rgb(255, 255, 255, 0.1);
+  box-shadow: 0 3px 16px rgb(0 0 0 / 0.4);
+  border-radius: 20px;
+  padding: 10px 10%;
+}
+
+.logo-area {
+  padding: 20px 30%;
+  margin-top: 60px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.auth-title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  color: black;
+}
+
+.service-btn {
+  background-color: rgba(135, 32, 1, 0.762);
+  width: 100%;
+  color: orange;
+  height: 45px;
+  box-shadow: none !important;
+}
+
+.service-btn:hover {
+  color: orange;
+  background-color: rgba(116, 51, 2, 0.3);
+}
+
+.service-icon {
+  margin-right: 10px;
+}
+
+.separator {
+  width: 100%;
+  color: black;
+}
+
+.auth-input {
+  background: rgb(0, 0, 0, 0.2);
+  height: 45px;
+  border: none !important;
+  color: black;
+  box-shadow: none !important;
+}
+
+.auth-input:focus {
+  background: rgb(0, 0, 0, 0.3);
+  color: orange;
+}
+
+.input-info-text {
+  color: black;
+}
+
+.auth-btn {
+  background: orange;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  box-shadow: none !important;
+}
+
+.auth-btn:hover {
+  background: rgba(235, 115, 9, 0.3);
+  color: black;
+}
+
+.text {
+  text-align: center;
+  color: black;
+}
+
+.text-link {
+  color: rgba(172, 123, 38, 0.4);
+  font-weight: bold;
+}
+
+.text-link:hover {
+  color: orange;
+}
+
+.btn-theme {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: none !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
