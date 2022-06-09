@@ -27,10 +27,10 @@ const handleSubmit = (e) => {
         Headers: { "Content-Type": "application/json" },
       })
         .then((response) => {
-          console.log(response);
           if (response.status == 200) {
-            localStorage.setItem("token", response.data.access);
-            if(response.data.role === "Customer") {
+            console.log(response.data.user.role);
+            localStorage.setItem("token", response.data.token.access);
+            if(response.data.user.role === "CUSTOMER") {
               navigate("/home");
             }
           }
